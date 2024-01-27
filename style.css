@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+.mainDiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 24%;
+    padding-top: 4rem;
+}
+.mainDiv div{
+    width: 33%;
+    height: 80px;
+    border: red 2px solid;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.winner{
+    background-color: blue;
+    font-size: x-large;
+    color: white;
+}
